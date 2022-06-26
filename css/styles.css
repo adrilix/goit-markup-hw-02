@@ -1,19 +1,114 @@
-/* color: #2196F3;
-    color: #757575;
-    color: #212121; */
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+  }
 
+:root{
+    /* colors */
+    --brand-color: #2196F3;
+    --logo-color: #000000;
+    --text-first: #212121;
+    --text-second: #757575;
+    --text-third-tlbgc: #FFFFFF;
+    --header-line: #ECECEC;
+    --bgc-ourcom: #F5F4FA; 
+    --bgc-foot-hero: #2F303A;
+}
+
+/* відключення стандартних властивостей "обнулення"*/
+.list {
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    font-family:'Roboto','Ralewey','sans-serif';
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;  
+    color: #212121; 
+}
+
+
+/* header */
+/* nav */
+/* logo */
 
 .logo-web{
-    color: #2196F3;
+    color:var(--brand-color);
     font-family: Raleway;
     font-weight: 700;
     font-size: 26px;
 }
 
-.logo-studio{
-    color:#212121 ;
+
+.logo-header{
+    color:var(--logo-color);
     font-family: Raleway;
     font-weight: 700;
     font-size: 26px;
 }
 
+    
+/* header-list */
+
+.header-list {
+    color:var(--text-first);
+}
+
+.header-list:hover,:focus{
+    color:var(--brand-color);
+}
+
+/* header-contact */
+
+.header-contact {
+    color: var(--text-first);
+}
+
+.header-contact:hover,:focus{
+    color: var(--brand-color);
+}
+
+/* main */
+/* hero */
+.hero {
+    background-color: var(--bgc-foot-hero);
+}
+.hero-title {
+    color: var(--text-third-tlbgc);
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.section{
+    color:var(--text-first);
+}
+.section-title{
+    color:var(--text-first);
+}
+.section-text{
+    color: var(--text-second);
+}
+
+/* особенности */
+/* чем мьі занимаемся */
+/* наша команда */
+
+
+
+/* footer */
+.logo-footer{
+    color:var(--text-third-tlbgc);
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+}
