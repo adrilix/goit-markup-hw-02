@@ -45,15 +45,19 @@ body {
 
 .logo-web{
     color:var(--brand-color);
+    font-family: 'Raleway';
+    font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.2;
-    letter-spacing: 0.03em;   
+    letter-spacing: 0.03em;  
 }
 
 
 .logo-header{
     color:var(--logo-color);
+    font-family: 'Raleway';
+    font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.2;
@@ -78,7 +82,7 @@ body {
 /* header-contact */
 
 .header-contact {
-    color: var(--text-first);
+    color: var(--text-second);
     font-weight: 500;
     font-size: 14px;
     line-height: 1.1;
@@ -170,12 +174,14 @@ letter-spacing: 0.03em;
 .button{
     color: var(--text-first);
     background-color: var(--bgc-ourcom);
+    cursor: pointer;
+    font-family: 'Roboto';
+    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.6;
     text-align: center;
     letter-spacing: 0.03em;
-    cursor: pointer;
 }
 
 .button:hover,:focus{    
