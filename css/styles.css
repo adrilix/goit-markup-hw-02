@@ -105,7 +105,7 @@ body {
     color: var(--text-third-tlbgc);
     text-transform: uppercase;
 }
-.button{
+.button-hero{
     color: var(--text-third-tlbgc);
     background-color: var(--brand-color);
     font-weight: 700;
@@ -113,6 +113,7 @@ body {
     line-height: 1.9;
     letter-spacing: 0.06em;
     text-align: center;
+    cursor: pointer;
 }
 
 /* секція особливості/features */
@@ -128,7 +129,6 @@ body {
 
 .features-text{
     color: var(--text-second);
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em;
@@ -160,11 +160,43 @@ letter-spacing: 0.03em;
 }
 .teamcard-text{
     color: var(--text-second);
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.2;
     letter-spacing: 0.03em;
 }
+
+/* page2 portfolio */
+
+.button{
+    color: var(--text-first);
+    background-color: var(--bgc-ourcom);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+    letter-spacing: 0.03em;
+    cursor: pointer;
+}
+
+.button:hover,:focus{    
+    background-color: var(--brand-color);
+    color:var(--text-third-tlbgc);
+}
+
+.project-name{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+.project-type{
+    color: var(--text-second);
+    font-size: 16px;
+    line-height: 1.9;
+    letter-spacing: 0.03em;
+}
+
 
 
 
@@ -194,14 +226,12 @@ address {
 
 .adress-text{
     color: var(--text-third-tlbgc);
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em;
 }
 .adress-link{
     color: var(--adress-link);
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em;
