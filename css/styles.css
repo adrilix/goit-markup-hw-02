@@ -9,7 +9,7 @@
     clip: rect(0 0 0 0);
     clip-path: inset(50%);
     margin: -1px;
-  }
+}
 
 :root{
     /* colors */
@@ -21,6 +21,7 @@
     --header-line: #ECECEC;
     --bgc-ourcom: #F5F4FA; 
     --bgc-foot-hero: #2F303A;
+    --adress-link: rgba(255, 255, 255, 0.6);
 }
 
 /* відключення стандартних властивостей "обнулення"*/
@@ -44,17 +45,19 @@ body {
 
 .logo-web{
     color:var(--brand-color);
-    font-family: Raleway;
     font-weight: 700;
     font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;   
 }
 
 
 .logo-header{
     color:var(--logo-color);
-    font-family: Raleway;
     font-weight: 700;
     font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
 }
 
     
@@ -62,6 +65,10 @@ body {
 
 .header-list {
     color:var(--text-first);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
 }
 
 .header-list:hover,:focus{
@@ -72,6 +79,10 @@ body {
 
 .header-contact {
     color: var(--text-first);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
 }
 
 .header-contact:hover,:focus{
@@ -82,33 +93,120 @@ body {
 /* hero */
 .hero {
     background-color: var(--bgc-foot-hero);
+    text-align: center;
 }
 .hero-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.4;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
     color: var(--text-third-tlbgc);
     text-transform: uppercase;
+}
+.button{
+    color: var(--text-third-tlbgc);
+    background-color: var(--brand-color);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.9;
+    letter-spacing: 0.06em;
     text-align: center;
 }
 
-.section{
+/* секція особливості/features */
+.features-title{
     color:var(--text-first);
-}
-.section-title{
-    color:var(--text-first);
-}
-.section-text{
-    color: var(--text-second);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.1;
+    letter-spacing: 0.03em; 
+    text-transform: uppercase;  
 }
 
-/* особенности */
-/* чем мьі занимаемся */
+.features-text{
+    color: var(--text-second);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+}
+
+/* чем мьі занимаемся/діяльність/activity */
+
+.activity-title{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
 /* наша команда */
+.team-title{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.03em;    
+}
+.teamcard{
+    font-weight: 500;
+font-size: 16px;
+line-height: 1.2;
+letter-spacing: 0.03em;
+}
+.teamcard-text{
+    color: var(--text-second);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+}
 
 
 
 /* footer */
-.logo-footer{
-    color:var(--text-third-tlbgc);
-    font-family: Raleway;
+.footer{
+    background-color: var(--bgc-foot-hero);
+}
+.logo-web{
+    color:var(--brand-color);
     font-weight: 700;
     font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+}
+
+.logo-footer{
+    color: var(--text-third-tlbgc);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+}
+
+address {
+    font-style: normal;
+}
+
+.adress-text{
+    color: var(--text-third-tlbgc);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+}
+.adress-link{
+    color: var(--adress-link);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+}
+
+.adress-link:hover,:focus{
+    color: var(--brand-color);
 }
