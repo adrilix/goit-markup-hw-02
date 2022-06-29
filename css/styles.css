@@ -284,24 +284,47 @@ body {
 }
 
 /* наша команда */
+
+.team{
+    outline: 2px solid rgb(32, 22, 142);
+    background-color: var(--bgc-ourcom);
+}
+
+.container{
+    outline: 6px solid blueviolet;
+}
+
 .team-title{
     font-weight: 700;
     font-size: 36px;
     line-height: 1.2;
     text-align: center;
     letter-spacing: 0.03em; 
+    margin-bottom: 50px;
 }
+
+.team-items{
+    display: flex;
+    justify-content: space-between;
+    outline: 2px solid rgb(142, 22, 22);
+    background-color: rgb(211, 244, 158);
+    text-align: center;
+} 
+
 .teamcard{
     font-weight: 500;
-font-size: 16px;
-line-height: 1.2;
-letter-spacing: 0.03em;
+    font-size: 16px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    margin-top: 30px;
+    margin-bottom: 10px;
 }
 .teamcard-text{
     color: var(--text-second);
     font-size: 16px;
     line-height: 1.2;
     letter-spacing: 0.03em;
+    margin-bottom: 30px;
 }
 
 /* page2 portfolio */
@@ -344,6 +367,13 @@ letter-spacing: 0.03em;
 /* footer */
 .footer{
     background-color: var(--bgc-foot-hero);
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.footer-link{
+    display: inline-block;
+    margin-bottom: 20px;
 }
 .logo-web{
     color:var(--brand-color);
@@ -362,20 +392,22 @@ letter-spacing: 0.03em;
 }
 
 address {
+    width: 231px;
+    height: max-content;
     font-style: normal;
 }
 
 .adress-text{
     color: var(--text-third-tlbgc);
     font-size: 14px;
-    line-height: 1.7;
+    line-height: calc(24/14);
     letter-spacing: 0.03em;
     margin-bottom: 0px;
 }
 .adress-link{
     color: var(--adress-link);
     font-size: 14px;
-    line-height: 1.7;
+    line-height: calc(24/14);
     letter-spacing: 0.03em;
 }
 
