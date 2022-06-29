@@ -197,25 +197,25 @@ body {
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: var(--text-third-tlbgc);
-
+    margin-bottom: 30px;
 
 }
+
 .button-hero{
-    color: var(--text-third-tlbgc);
     background-color: var(--brand-color);
+    color: var(--text-third-tlbgc);
     font-weight: 700;
     font-size: 16px;
-    line-height: 30px;
+    line-height: 1.86;
     letter-spacing: 0.06em;
     text-align: center;
     cursor: pointer;
     border: 0px solid transparent;
     border-radius: 4px;
     padding: 10px 32px;
-    width: 200px;
-    height: 50px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-}
+}  
+
 
 /* секція особливості/features */
 .features-title{
