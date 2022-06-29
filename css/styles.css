@@ -65,17 +65,17 @@ body {
     
 }
 
+.container{
+    width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0 15px;
+}
+
 .section{
     padding-top: 94px;
     padding-bottom: 94px;
 }
-
-.container{
-    width: 1200px;
-    margin: 0 auto;
-    padding: 0 15;
-}
-
 
 /* header */
 /* nav */
@@ -198,6 +198,8 @@ body {
     text-transform: uppercase;
     color: var(--text-third-tlbgc);
     margin-bottom: 30px;
+    outline: 2px solid rgb(32, 22, 142);
+    background-color: rgb(160, 233, 233);
 
 }
 
@@ -214,35 +216,71 @@ body {
     border-radius: 4px;
     padding: 10px 32px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    outline: 2px solid rgb(142, 22, 22);
+    background-color: rgb(15, 7, 253);
 }  
 
 
 /* секція особливості/features */
+
+.features {
+    display: flex;
+    outline: 2px solid rgb(142, 22, 22);
+    background-color: rgb(15, 7, 253);
+} 
+
+.features-items{
+    display: flex;
+    outline: 2px solid rgb(32, 22, 142);
+    background-color: rgb(160, 233, 233);
+}
+
+.features-item{
+    max-width: 270px;
+}
+
+.features-item:not(:last-child){
+    margin-right: 30px;
+}
+
 .features-title{
     color:var(--text-first);
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
-    line-height: 1.1;
+    line-height: calc(16/14);
     letter-spacing: 0.03em; 
-    text-transform: uppercase;  
+    text-transform: uppercase;
+    margin-bottom: 10px; 
 }
 
 .features-text{
     color: var(--text-second);
     font-size: 14px;
-    line-height: 1.7;
+    line-height: calc(24/14);
     letter-spacing: 0.03em;
+    margin-bottom: 0px;
 }
 
 /* чем мьі занимаемся/діяльність/activity */
 
+.activity{
+    outline: 2px solid rgb(32, 22, 142);
+    background-color: rgb(160, 233, 233);
+}
+
 .activity-title{
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.2;
+    line-height: calc(42/36);
     text-align: center;
     letter-spacing: 0.03em;
+    margin-bottom: 50px;  
+}
+
+.activity-items{
+    display: flex;
+    justify-content: space-between;
 }
 
 /* наша команда */
@@ -251,7 +289,7 @@ body {
     font-size: 36px;
     line-height: 1.2;
     text-align: center;
-    letter-spacing: 0.03em;    
+    letter-spacing: 0.03em; 
 }
 .teamcard{
     font-weight: 500;
